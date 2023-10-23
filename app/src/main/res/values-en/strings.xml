@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToLetters</string>
+    <string name="prompt_label">Fill in number</string>
+    <string name="button_text">Write In Letters</string>
+    <string name="prompt_hint">%d digits max</string>
+    <string name="empty_msg">enter number of %d digits max</string>
+    <string name="response_list_item_icon">read</string>
+    <string name="tts_missing">The speech synthetizer is not installed</string>
+    <string name="lang_not_avaible">French language are not available on this device</string>
+    <string name="result_copied">result copied</string>
+    <string name="copy_error">Error occurs when copying result</string>
+    <string name="nothing_to_copy">"Nothing to copy "</string>
+    <string name="nothing_to_share">Nothing to share</string>
+    <string name="share_via">Share via</string>
+    <string name="nothing_to_read">No result to read</string>
+    <string name="tts_low_sdk_version">Speech synthetizer is not available on this device</string>
+    <string name="btn_share_desc">share</string>
+    <string name="btn_copy_desc">copy</string>
+    <string name="btn_speak_desc">read</string>
+</resources>

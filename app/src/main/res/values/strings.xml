@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">En Lettres</string>
+    <string name="prompt_label">Entrez le nombre</string>
+    <string name="digits" translatable="false">0123456789</string>
+    <string name="button_text">Ecrire En Lettres</string>
+    <string name="prompt_hint">%d chiffres max</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="empty_msg">entrez un nombre de %d chiffres maximum</string>
+    <string name="response_list_item_icon">lire</string>
+    <string name="tts_missing">Le synthetiseur de parole n\'est pas installé !</string>
+    <string name="lang_not_avaible">La langue française n\'est pas disponible sur cet appariel !</string>
+    <string name="result_copied">resultat copié !</string>
+    <string name="copy_error">Erreur lors de la copie du resultat\n</string>
+    <string name="nothing_to_copy">Aucun resultat à copier !</string>
+    <string name="nothing_to_share">Aucun resultat à partager</string>
+    <string name="share_via">Envoyer via</string>
+    <string name="nothing_to_read">Aucun resultat a lire !</string>
+    <string name="tts_low_sdk_version">Le synthetiseur de parole n\'est pas pris en charge sur cet Appariel</string>
+    <string name="btn_share_desc">partager</string>
+    <string name="btn_copy_desc">copier</string>
+    <string name="btn_speak_desc">lire</string>
+
+</resources>
