@@ -7,7 +7,7 @@
     <string name="empty_msg">enter number of %d digits max</string>
     <string name="response_list_item_icon">read</string>
     <string name="tts_missing">The speech synthetizer is not installed</string>
-    <string name="lang_not_avaible">French language are not available on this device</string>
+    <string name="lang_not_available">French language are not available on this device</string>
     <string name="result_copied">result copied</string>
     <string name="copy_error">Error occurs when copying result</string>
     <string name="nothing_to_copy">"Nothing to copy "</string>
@@ -18,4 +18,9 @@
     <string name="btn_share_desc">share</string>
     <string name="btn_copy_desc">copy</string>
     <string name="btn_speak_desc">read</string>
+    <string name="menu_history">history</string>
+    <string name="close_sheet">Close</string>
+    <string name="recyclerview_desc">history</string>
+    <string name="no_history">history is empty</string>
+    <string name="settings">Settings</string>
 </resources>

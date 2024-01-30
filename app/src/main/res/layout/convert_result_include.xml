@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight="match_constraint"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/divider_guideline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/delius_swash_caps"
+            android:isScrollContainer="true"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:verticalScrollbarPosition="right"
+            tools:text="@tools:sample/lorem/random" />
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/speak_option"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:contentDescription="@string/btn_speak_desc"
+        app:icon="@drawable/round_volume_up_24"
+        app:iconSize="@dimen/icons_size"
+        app:iconGravity="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/copy_option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/divider_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearanceOverlay="@style/CircularShape"
+        tools:viewBindingType="com.google.android.material.button.MaterialButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/copy_option"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:contentDescription="@string/btn_copy_desc"
+        app:icon="@drawable/round_content_copy_24"
+        app:iconSize="@dimen/icons_size"
+        app:iconGravity="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/share_option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/divider_guideline"
+        app:layout_constraintTop_toBottomOf="@id/speak_option"
+        app:shapeAppearanceOverlay="@style/CircularShape"
+        tools:viewBindingType="com.google.android.material.button.MaterialButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/share_option"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:contentDescription="@string/btn_share_desc"
+        app:icon="@drawable/round_share_24"
+        app:iconSize="@dimen/icons_size"
+        app:iconGravity="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/divider_guideline"
+        app:layout_constraintTop_toBottomOf="@id/copy_option"
+        app:shapeAppearanceOverlay="@style/CircularShape"
+        tools:viewBindingType="com.google.android.material.button.MaterialButton" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/divider_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.80" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

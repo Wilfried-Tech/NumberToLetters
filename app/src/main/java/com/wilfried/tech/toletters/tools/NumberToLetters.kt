@@ -64,7 +64,6 @@ private val tensLetters = arrayOf(
     "quatre-vingt"
 )
 
-
 var separator = "-"
 
 private fun toLettersFrom0To999(number: Int): String {

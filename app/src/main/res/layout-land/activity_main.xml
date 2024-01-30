@@ -3,22 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
     android:weightSum="1"
     tools:context=".MainActivity">
 
     <include
         android:id="@+id/convert_input"
         layout="@layout/convert_input_include"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="0.5" />
 
     <include
         android:id="@+id/convert_result"
         layout="@layout/convert_result_include"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="0.5" />
 
 </LinearLayout>
